@@ -1,0 +1,85 @@
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    color: whitesmoke;
+    position:sticky;
+    top: 1px;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.top-left {    
+    flex: 3;
+    background-color: transparent;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top-right {
+    flex: 3;
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-center {
+    flex : 8;
+    background-color: transparent;
+    color: gold;
+    
+    
+}
+
+.topImg {
+    width: 40px;
+    height: 4opx;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+   
+
+}
+
+.topIcons{
+    color:gold;
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 15px;
+    
+}
+
+.toplist{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.toplistitem{
+    margin-right: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+    
+}
+
+.topserchicon{
+    font-size: 30px ;
+    cursor: pointer;
+    margin-left: 15px;
+}

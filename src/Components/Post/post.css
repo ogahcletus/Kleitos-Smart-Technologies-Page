@@ -1,0 +1,71 @@
+.post {
+    width: 350px;
+    margin: 0px 25px 40px 25px;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+.post-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.post-categories{
+    font-family: Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: burlywood;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 20px;
+    font-style: italic;
+    cursor: pointer;
+    
+    
+
+}
+
+.post-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    color: bisque;
+}
+
+.postDate{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    color: beige;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.post-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: antiquewhite;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}
