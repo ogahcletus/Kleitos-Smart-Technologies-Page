@@ -10,18 +10,29 @@ const Settings = () => {
             <span className="update-title"><h3>Update Account</h3></span>
             <span className="delete-title"><h3>Delete Account</h3></span>
         </div>
-            <form className="settings">
+            <form className="settings-form">
                <label>Profile Picture</label>
                  <div className="settings-profile-img">
-                    <img src="https://scontent.fabv2-2.fna.fbcdn.net/v/t39.30808-6/278211684_10159922769962628_5084922974116813440_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeG9fMfQrQLvEEuhhzVggoB3FBFYrt5ElZAUEViu3kSVkJrRZt2syKL9nlZua8fHuldj_8BUHbwL713dg4Yexn3M&_nc_ohc=mAOMXTMfzsgAX9aOlvy&_nc_zt=23&_nc_ht=scontent.fabv2-2.fna&oh=00_AT_54mjiiv36uV2C64IQ-wlHWeG3jY5aKzqyQ05uVBlfhw&oe=6310AA8B" alt="" className="profile-img" />
+                    <img src="https://scontent.fabv2-1.fna.fbcdn.net/v/t1.6435-9/149790606_10159071750157628_7974428388512127847_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH8Jscb7_wuyL5vJ1_p15tK8CvBhdV3AabwK8GF1XcBpoo0MPHPC4uUus99OYvhKaW0OGup4A0lKNMMPt5_wmVs&_nc_ohc=lh2DrrED6TEAX9ef9ah&_nc_ht=scontent.fabv2-1.fna&oh=00_AT8G-NdLIEYjSFWrgm9FSJNR2CX6BRTp9DaAda67dSBz-g&oe=63301ECD" alt=""/>
 
-                    <label htmlFor=''>
-                    <i class="fa-solid fa-circle-user"></i>
+                    <label htmlFor='file-input'>
+                    <i className="profile-imgIcon fa-solid fa-user-plus"></i>
                     </label>
-                 </div>
-
-
+                    <input type='file' id='file-input' style={{display:'none'}}/>
+                </div>
+                 
+                  <label><h3>UserName</h3></label>
+                  <input type='text' placeholder='Enter your username here...' />
+                  <label><h3>Email</h3></label>
+                  <input type='email' placeholder='email' />
+                  <label><h3>Password</h3></label>
+                  <input type='password' placeholder='Enter your password here...'  />
+                  
+                  <button className="settingsSubmit"><h3>Update</h3></button>
+                 
+                  
             </form>
+            
       </div>
       <Sidebar />
     

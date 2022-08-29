@@ -1,0 +1,67 @@
+.login{
+    height: calc(100vh - 0px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    
+}
+
+.login-title {
+  font-size: 50px;
+}
+
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.login-form > label {
+     margin: 10px 0;
+    font-size: 18px;
+    
+    
+}
+
+.login-input {
+    padding: 10px;
+    border: none;
+    background-color: aqua;
+    border-bottom: 1px solid darkgreen;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.login-button {
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 20px;
+    border: none;
+    color: azure;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
+
+.login-button-register {
+    margin-top: 25px;
+    background-color: darkblue;
+    border-radius: 20px;
+    border: none;
+    color: gold;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+
+
+}

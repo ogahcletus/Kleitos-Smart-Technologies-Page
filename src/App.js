@@ -1,8 +1,9 @@
 
-import Topbar from './Components/Topbar/TopBar';
+
 import './App.css';
 
-import Settings from './Components/Pages/Settings/Settings';
+import Topbar from './Components/Topbar/TopBar';
+import Login from './Components/Pages/Login/Login';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className='App'>
       
       <Topbar />
-      <Settings />
+      
+      <Login />
       
     </div>
   );

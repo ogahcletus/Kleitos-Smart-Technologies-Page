@@ -4,4 +4,86 @@
 
 .settings-wrapper {
     flex: 9;
+    padding: 20px;
+}
+
+.settings-title{
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.update-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkblue;
+
+}
+
+.delete-title{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.settings-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-profile-img{
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+}
+
+.settings-profile-img > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.profile-imgIcon {
+    width: 25px;
+    height: 25px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    cursor: pointer;
+} 
+
+.settings-form > label {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.settings-form>input {
+     margin: 10px 0;
+     color: darkblue;
+     height: 30px;
+     border: none;
+     background-color: aqua;
+     font-size: 20px;
+     border-radius: 15px;
+     border-bottom: 1px solid darkgreen;
+}
+
+
+
+.settingsSubmit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 15px;
+    background: green;
+    color: azure;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+
+
 }
