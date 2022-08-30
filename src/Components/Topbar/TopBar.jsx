@@ -4,7 +4,7 @@ import './topbar.css';
 
 
 function Topbar() {
-  const user = false;
+  const user = true;
   return (
     <div className='top'>
     

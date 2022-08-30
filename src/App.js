@@ -1,10 +1,13 @@
-import React from 'react';
+ import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
 import './App.css';
-
+import Contact from './Components/Pages/Contact/Contact';
 import Topbar from './Components/Topbar/Topbar';
+
+
+
 import Home from './Components/Pages/Home/Home';
 import Signup from './Components/Pages/Sign up/Signup';
 import Login from './Components/Pages/Login/Login';
@@ -17,10 +20,10 @@ import SinglePost from './Components/SinglePost/SinglePost';
 
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <div className='App'>
-    <Router >
+      <Router >
       <Topbar />
       <Switch>
         <Route exact path="/">
@@ -40,14 +43,18 @@ function App() {
           <SinglePost />
         </Route>
         
-        <Route path="/settings">
-          <Settings />
+        <Route path="/contact">
+          <Contact />
         </Route>
         
         
         
       </Switch>
-    </Router>
+    
+    </Router> 
+
+
+    
     </div>
   );
 }
