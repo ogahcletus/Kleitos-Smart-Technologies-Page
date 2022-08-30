@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './settings.css';
 import Sidebar from '../../Sidebar/Sidebar';
 
 const Settings = () => {
+  const user = true;
+  
   return (
     <div className='settings'>
       <div className="settings-wrapper">
@@ -10,6 +13,8 @@ const Settings = () => {
             <span className="update-title"><h3>Update Account</h3></span>
             <span className="delete-title"><h3>Delete Account</h3></span>
         </div>
+
+        { user?
             <form className="settings-form">
                <label>Profile Picture</label>
                  <div className="settings-profile-img">
@@ -24,7 +29,7 @@ const Settings = () => {
                   <label><h3>UserName</h3></label>
                   <input type='text' placeholder='Enter your username here...' />
                   <label><h3>Email</h3></label>
-                  <input type='email' placeholder='email' />
+                  <input type='email' placeholder='Enter your email ....' />
                   <label><h3>Password</h3></label>
                   <input type='password' placeholder='Enter your password here...'  />
                   
@@ -32,6 +37,11 @@ const Settings = () => {
                  
                   
             </form>
+             
+             : <li className='toplistitem'>
+              <Link to='/signup'>SIGNUP</Link>
+             </li>
+            }
             
       </div>
       <Sidebar />

@@ -72,8 +72,10 @@
 
 .toplistitem{
     margin-right: 20px;
-    font-weight: bolder;
+    font-weight: 700px;
     cursor: pointer;
+    
+    
     
     
 }
@@ -82,4 +84,9 @@
     font-size: 30px ;
     cursor: pointer;
     margin-left: 15px;
+}
+
+h2 {
+    color: gold;
+    font-size: 30px;
 }
